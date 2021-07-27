@@ -14,7 +14,7 @@ class Counter extends Component {
   //   console.log('Increment Clicked', this)
   // }
 
-  handleIncrement = (product) => {
+  handleIncrement = () => {
     this.setState({ value: this.state.value + 1 })
   }
 
