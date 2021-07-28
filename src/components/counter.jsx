@@ -9,10 +9,9 @@ class Counter extends Component {
     }
   }
 
-  // componentWillUnmount() {
-  //   console.log('')
-  // }
-  
+  componentWillUnmount() {
+    console.log('Counter - Unmount');
+  }
   // constructor() {
   //   super();
   //   this.handleIncrement = this.handleIncrement.bind(this);
